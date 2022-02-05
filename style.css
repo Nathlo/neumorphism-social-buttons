@@ -47,11 +47,15 @@ body {
     inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9,
     inset 0px 0px 0px 0px #0001;
 
-  transition: box-shadow 0.6s cubic-bezier(0.79, 0.21, 0.06, 0.81);
+  transition: box-shadow 0.4s cubic-bezier(0.79, 0.21, 0.06, 0.81);
   color: rgba(42, 52, 84, 1);
   text-decoration: none;
   font-size: 16px;
 }
 
 .btn:active {
+  box-shadow: 0px 0px 0px 0px #fff9, 0px 0px 0px 0px #fff9,
+    0px 0px 0px 0px #0002, 0px 0px 0px 0px #0001, inset -4px -4px 5px 0px #fff9,
+    inset 4px 4px 5px 0px #0001, inset -7px -7px 20px 0px #fff9,
+    inset 7px 7px 20px 0px #0001;
 }
